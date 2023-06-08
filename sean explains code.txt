@@ -1,0 +1,26 @@
+De layout bestaat uit 2 delen waarvan een grid is gebruikt
+De aside heeft 25% van de scherm en de main 75%
+
+als je in de website laad zie je een fade in effect
+<body class="fade-in"> 
+ik heb de body een klasse gegeven
+
+.fade-in{
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.fade-in.geladen{
+    opacity: 1;
+}
+
+opacity staat op 0 dus dan zie je niks met de transition kan het dan van niet te zien naar te zien gaan
+en in .fade-in-geladen zie je dan weer een opacity van 1.
+Dat betekent dus dat je het weer kan zien
+
+
+
+de aside heeft een nav en die heeft een flex 
+daaronder heb je een go premium button 
+
+in de main
